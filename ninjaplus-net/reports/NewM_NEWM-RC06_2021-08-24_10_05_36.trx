@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="81a13776-03fd-41c6-a233-d7e06b316c8d" name="NewM@NEWM-RC06 2021-08-24 10:05:36" runUser="NEWM-RC06\NewM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-08-24T10:05:36.6579394-03:00" queuing="2021-08-24T10:05:36.6579404-03:00" start="2021-08-24T10:05:32.9985973-03:00" finish="2021-08-24T10:05:36.6682803-03:00" />
+  <TestSettings name="default" id="623d424a-876b-4577-8957-26721cf9771e">
+    <Deployment runDeploymentRoot="NewM_NEWM-RC06_2021-08-24_10_05_36" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e9e49eb4-917f-49fe-8eb9-cddfcbc587e9" testId="802b02be-524c-cf5a-8153-696af31aae41" testName="ShouldSeeLoggedUser" computerName="NEWM-RC06" duration="00:00:02.8032050" startTime="2021-08-24T10:05:33.0000000-03:00" endTime="2021-08-24T10:05:36.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9e49eb4-917f-49fe-8eb9-cddfcbc587e9">
+      <Output>
+        <StdOut>Ocorreu um erro ao capturar o screenshot :(</StdOut>
+        <ErrorInfo>
+          <Message>TearDown : System.Exception : Could not find a part of the path 'c:\qaninja\screenshots\0-1005.png'.</Message>
+          <StackTrace>--TearDown&#xD;
+   at NinjaPlus.Common.BaseTest.Finish() in C:\qaninja\ninjaplus-net\Common\BaseTest.cs:line 71</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ShouldSeeLoggedUser" storage="c:\qaninja\ninjaplus-net\bin\debug\net5.0\ninjaplus-net.dll" id="802b02be-524c-cf5a-8153-696af31aae41">
+      <Execution id="e9e49eb4-917f-49fe-8eb9-cddfcbc587e9" />
+      <TestMethod codeBase="C:\qaninja\ninjaplus-net\bin\Debug\net5.0\ninjaplus-net.dll" adapterTypeName="executor://nunit3testexecutor/" className="NinjaPlus.Tests.LoginTests" name="ShouldSeeLoggedUser" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="802b02be-524c-cf5a-8153-696af31aae41" executionId="e9e49eb4-917f-49fe-8eb9-cddfcbc587e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.16.1.0: Test execution started&#xD;
+Running all tests in C:\qaninja\ninjaplus-net\bin\Debug\net5.0\ninjaplus-net.dll&#xD;
+   NUnit3TestExecutor converted 10 of 10 NUnit test cases&#xD;
+NUnit Adapter 3.16.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
